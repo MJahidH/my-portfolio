@@ -8,8 +8,9 @@ function App() {
 
   return (
     <>
-    <NavBar/>
-      <h1>Hello world </h1>
+    
+      <h1>Jahid Hassan  </h1>
+      <NavBar/>
       <p>this is my portfolio website</p>
     </>
   );
