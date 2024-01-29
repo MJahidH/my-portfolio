@@ -1,18 +1,22 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import NavBar from "./NavBar";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import ProjectsPage from "./ProjectsPage";
+import HomePage from "./Homepage";
 
 function App() {
-
   return (
-    <>
-    
-      <h1>Jahid Hassan  </h1>
-      <NavBar/>
-      <p>this is my portfolio website</p>
-    </>
+    <Router>
+      <>
+        <h1>Jahid Hasssn"s Portfolio </h1>
+        <NavBar />
+        <Routes>
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </>
+    </Router>
   );
 }
 

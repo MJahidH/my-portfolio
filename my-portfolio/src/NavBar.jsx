@@ -1,9 +1,12 @@
+import { useNavigate } from 'react-router-dom';
+
 const NavBar = () => {
+  const navigate = useNavigate();
+
   return (
     <ul>
-      <button>Home</button>
-      <button>My Projexts</button>      <button>Katas</button>
-      <button>Contact Info</button>
+      <button onClick={() => navigate('/')}>Home</button>
+      <button onClick={() => navigate('/projects')}>My Projects</button>
     </ul>
   );
 };
