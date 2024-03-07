@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import NavBar from "./NavBar";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
-import ProjectsList from "./ProjectsList";
+import ProjectsList from "./components/ProjectsList";
 import HomePage from "./Homepage";
 
 function App() {
