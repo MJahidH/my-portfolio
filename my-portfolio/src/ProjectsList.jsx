@@ -2,15 +2,15 @@ import data from "./projects-data.json"
 
 
 
-const ProjectsPage = () => {
+const ProjectsList = () => {
   
   
   console.log(data)
   return (
     <>
-      <h1>this is the projects page</h1>
+      <h1>All Projects</h1>
     </>
   );
 };
 
-export default ProjectsPage;
+export default ProjectsList;
