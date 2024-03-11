@@ -9,15 +9,18 @@ import FindMePage from "./components/FindMePage";
 function App() {
   return (
     <Router>
-      <>
-        <h1>Jahid Hasssn"s Portfolio </h1>
+<div style={{backgroundColor:"darkBlue"}}>
+<h1>Jahid Hasssn"s Portfolio </h1>
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsList />} />
         <Route path="/findme" element={<FindMePage/>}/>
         </Routes>
-      </>
+
+</div>
+
+
     </Router>
   );
 }
