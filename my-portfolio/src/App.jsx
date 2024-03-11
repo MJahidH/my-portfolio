@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
 <div style={{backgroundColor:"darkBlue"}}>
-<h1 className="text-5xl">Jahid Hasssn"s Portfolio </h1>
+<h1 className="text-primary">Jahid Hasssn"s Portfolio </h1>
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
