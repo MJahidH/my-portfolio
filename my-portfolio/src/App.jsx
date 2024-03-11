@@ -14,7 +14,9 @@ function App() {
         min-w-screen
 bg-gradient-to-b from-primary to-gray-600"
       >
-        <h1 className="text-primary">Jahid Hasssn"s Portfolio </h1>
+        <h1 className="text-gray-200
+        text-7xl
+        text-top">Jahid Hasssn"s Portfolio </h1>
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />

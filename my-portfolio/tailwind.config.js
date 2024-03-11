@@ -8,7 +8,7 @@ export default {
     extend: {
       colors : {
         primary : "#004E89",
-        secondary : "#006494",
+        secondary : "#E6f0FF",
         mainFontColor : ""
       }
     },
