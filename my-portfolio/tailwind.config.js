@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors : {
-        primary : "pink"
+        primary : "#004E89",
+        secondary : "#006494",
+        mainFontColor : ""
       }
     },
   },
