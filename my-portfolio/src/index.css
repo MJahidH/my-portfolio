@@ -9,3 +9,10 @@
    border-4
    ;
 }
+
+.pageMainSubheading {
+    @apply 
+text-secondary
+text-6xl
+pb-10
+}
