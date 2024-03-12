@@ -6,17 +6,29 @@ const ProjectCard = ({ project }) => {
   };
 
   return (
-    <div>
-      <h2>{project.title}</h2>
-      <p>{project.description}</p>
+    <div className="border-yellow-100
+    border-8
+    mb-10
+    py-5
+    relative overflow-hidden">
+      <h2 className="projectTitle">{project.title}</h2>
+      <p className="projectSecondaryText">{project.description}</p>
 
       <ul>
-        <h3>Technologies : </h3>
+        <h3 className="projectSecondaryText 
+        pt-5
+        text-3xl
+        pb-3
+        
+        ">Technologies : </h3>
         {project.technologies.map((technology) => {
-          return <li>{technology}</li>;
+          return <li class className="projectSecondaryText
+          py-1"> -   {technology}</li>;
         })}
       </ul>
       <button
+      className="githubButton
+       "
         onClick={() => {
           openInNewTab(project.link);
         }}

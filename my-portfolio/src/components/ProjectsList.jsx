@@ -6,17 +6,16 @@ const ProjectsList = () => {
   const [projects, setProjects] = useState(data);
 
   return (
-<div className="pt-20">
-<h1 className="pageMainSubheading" >All Projects</h1>
+    <div className="pt-20">
+      <h1
+        className="pageMainSubheading"
+      >
+        All Projects
+      </h1>
       {projects.map((project) => {
-        return (
-          <ProjectCard project={project} />
-        )
+        return <ProjectCard project={project} />;
       })}
-
-</div>
-
-
+    </div>
   );
 };
 

@@ -3,16 +3,33 @@
 @tailwind utilities;
 
 .navButton {
-  @apply
-  w-full 
+  @apply w-full 
   border-yellow-500
-   border-4
-   ;
+   border-4;
 }
 
 .pageMainSubheading {
-    @apply 
-text-secondary
+  @apply text-secondary
 text-6xl
-pb-10
+pb-10;
+}
+
+.projectTitle {
+  @apply pb-8
+    text-secondary
+    text-4xl;
+}
+
+.projectSecondaryText {
+  @apply text-left
+    text-secondary
+    pl-5;
+}
+
+.githubButton {
+  @apply text-2xl
+  border-yellow-100
+  border-4
+  absolute bottom-20 right-80
+  pt-10;
 }
