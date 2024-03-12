@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.navButton {
+  @apply
+  w-full 
+  border-yellow-500
+   border-4
+   ;
+}
