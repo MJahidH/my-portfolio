@@ -18,16 +18,23 @@ const FindMePage = () => {
   };
 
   return (
-<div className="pt-20">
-<h1 className="pageMainSubheading">Find Me</h1>
-      <button
+    <div className="pt-20">
+      <h1 className="pageMainSubheading">Find Me</h1>
+<div className="
+flex flex-row
+mt-10
+">
+
+<button className="
+contactButtons"
         onClick={() => {
           openInNewTab(links.linkedIn);
         }}
       >
         My LinkedIn
       </button>
-      <button
+      <button 
+      className="contactButtons"
         onClick={() => {
           openInNewTab(links.github);
         }}
@@ -35,11 +42,12 @@ const FindMePage = () => {
         My Github
       </button>
 
-      <button onClick={sendEmail}>Email Me</button>
-
+      <button
+      className="contactButtons"
+       onClick={sendEmail}>Email Me</button>
 
 </div>
-
+    </div>
   );
 };
 export default FindMePage;

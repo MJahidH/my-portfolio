@@ -11,6 +11,14 @@
   hover:bg-gray-500;
 }
 
+.contactButtons {
+  @apply 
+  w-full
+  border-pink-500
+  border-4
+  mx-5
+}
+
 .pageMainSubheading {
   @apply text-secondary
 text-6xl
