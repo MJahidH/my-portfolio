@@ -7,10 +7,10 @@ const ProjectCard = ({ project }) => {
 
   return (
     <div className="border-gray-200
-    border-8
     mb-10
     py-5
-    relative overflow-hidden">
+    relative overflow-hidden
+    bg-gradient-to-r from-primary to-gray-600">
       <h2 className="projectTitle">{project.title}</h2>
       <p className="projectSecondaryText">{project.description}</p>
 
