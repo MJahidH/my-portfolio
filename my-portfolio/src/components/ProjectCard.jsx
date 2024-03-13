@@ -6,7 +6,7 @@ const ProjectCard = ({ project }) => {
   };
 
   return (
-    <div className="border-yellow-100
+    <div className="border-gray-200
     border-8
     mb-10
     py-5

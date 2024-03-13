@@ -2,7 +2,7 @@
   {
     "title": "Portfolio Web Page ",
     "description": "A responsive website to present all my projects in  a well organised wy.",
-    "technologies": ["React-Natve", "Tailwind CSS"],
+    "technologies": ["React-Natve", "Tailwind CSS", "JSX"],
     "id": "5",
     "link": "https://github.com/MJahidH/my-portfolio"
   },
