@@ -27,7 +27,9 @@ const ProjectCard = ({ project }) => {
         })}
       </ul>
       <button
-      className="githubButton
+      className="
+      githubButton
+      defaultHover
        "
         onClick={() => {
           openInNewTab(project.link);

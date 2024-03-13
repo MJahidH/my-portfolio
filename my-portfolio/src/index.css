@@ -32,11 +32,16 @@ pb-10;
   rounded-3xl
   p-4
 absolute bottom-20 left-1/2 -translate-x-1/2
+bg-black
+
+}
+
+.defaultHover {
+@apply
 transition 
 ease-in-out 
- bg-black
   hover:-translate-y-1 
   hover:scale-110
   hover:border-secondary
-  hover:border-4;
+  hover:border-2
 }
