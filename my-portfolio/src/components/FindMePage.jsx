@@ -18,8 +18,8 @@ const FindMePage = () => {
   };
 
   return (
-    <>
-      <h1>this is the contacts page</h1>
+<div className="pt-20">
+<h1 className="pageMainSubheading">Find Me</h1>
       <button
         onClick={() => {
           openInNewTab(links.linkedIn);
@@ -36,7 +36,10 @@ const FindMePage = () => {
       </button>
 
       <button onClick={sendEmail}>Email Me</button>
-    </>
+
+
+</div>
+
   );
 };
 export default FindMePage;
