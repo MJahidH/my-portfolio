@@ -5,6 +5,7 @@
 .navButton {
   @apply w-full 
  text-white
+ p-3
   defaultHover
   translate-x-0
   ease-in-out
@@ -14,9 +15,11 @@
 .contactButtons {
   @apply 
   w-full
-  border-pink-500
-  border-4
+  text-3xl
   mx-5
+  rounded-3xl
+  p-10
+  defaultHover
 }
 
 .pageMainSubheading {

@@ -20,33 +20,45 @@ const FindMePage = () => {
   return (
     <div className="pt-20">
       <h1 className="pageMainSubheading">Find Me</h1>
-<div className="
+      <div
+        className="
 flex flex-row
 mt-10
-">
-
-<button className="
-contactButtons"
-        onClick={() => {
-          openInNewTab(links.linkedIn);
-        }}
+mx-5
+"
       >
-        My LinkedIn
-      </button>
-      <button 
-      className="contactButtons"
-        onClick={() => {
-          openInNewTab(links.github);
-        }}
-      >
-        My Github
-      </button>
+        <button
+          className="
+contactButtons
+bg-blue-600
+text-white
+"
+          onClick={() => {
+            openInNewTab(links.linkedIn);
+          }}
+        >
+          LinkedIn
+        </button>
+        <button
+          className="contactButtons
+      bg-black
+      text-white"
+          onClick={() => {
+            openInNewTab(links.github);
+          }}
+        >
+          Github
+        </button>
 
-      <button
-      className="contactButtons"
-       onClick={sendEmail}>Email Me</button>
-
-</div>
+        <button
+          className="contactButtons
+      bg-green-700
+      text-white"
+          onClick={sendEmail}
+        >
+          Email Me
+        </button>
+      </div>
     </div>
   );
 };

@@ -16,7 +16,7 @@ bg-gradient-to-b from-primary to-gray-600"
       >
         <h1 className="text-secondary
         text-7xl
-        text-top">Jahid Hasssn"s Portfolio </h1>
+        text-top">Jahid Hassan's Portfolio </h1>
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
