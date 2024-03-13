@@ -4,8 +4,11 @@
 
 .navButton {
   @apply w-full 
-  border-yellow-500
-   border-4;
+ text-white
+  defaultHover
+  translate-x-0
+  ease-in-out
+  hover:bg-gray-500;
 }
 
 .pageMainSubheading {
@@ -32,16 +35,14 @@ pb-10;
   rounded-3xl
   p-4
 absolute bottom-20 left-1/2 -translate-x-1/2
-bg-black
-
+bg-black;
 }
 
 .defaultHover {
-@apply
-transition 
+  @apply transition 
 ease-in-out 
   hover:-translate-y-1 
   hover:scale-110
   hover:border-secondary
-  hover:border-2
+  hover:border-2;
 }
