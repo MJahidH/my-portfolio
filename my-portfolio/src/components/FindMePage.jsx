@@ -4,7 +4,7 @@ const FindMePage = () => {
   const myLinks = {
     linkedIn:
       "https://www.linkedin.com/in/jahid-hassan-34731529a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    github: "ßhttps://github.com/MJahidH?tab=repositories",
+    github: "https://github.com/MJahidH?tab=repositories",
     email: "jahidh2312@gmail.com",
   };
   const [links, setLinks] = useState(myLinks);
