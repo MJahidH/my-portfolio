@@ -6,7 +6,7 @@ return (
 <div  className="pt-20
 px-10" >
 
-<h2 className="pageMainSubheading">Welcome To My Webiste</h2>
+<h2 className="pageMainSubheading">Welcome To My Website</h2>
 <p className="object-position-bottom
 text-white
  

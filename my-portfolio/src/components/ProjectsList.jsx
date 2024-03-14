@@ -10,7 +10,7 @@ const ProjectsList = () => {
       <h1
         className="pageMainSubheading"
       >
-        All Projects
+        My Projects
       </h1>
       {projects.map((project) => {
         return <ProjectCard project={project} />;

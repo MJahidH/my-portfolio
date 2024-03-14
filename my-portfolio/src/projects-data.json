@@ -1,36 +1,36 @@
 [
   {
     "title": "Portfolio Web Page ",
-    "description": "A responsive website to present all my projects in  a well organised wy.",
-    "technologies": ["React-Natve", "Tailwind CSS", "JSX"],
+    "description": "A responsive website to present all my projects in  a well organised way",
+    "technologies": ["React-Native", "Tailwind CSS", "JSX"],
     "id": "5",
     "link": "https://github.com/MJahidH/my-portfolio"
   },
   {
     "title": "QuoteSnap Front-End  ",
-    "description": "QuoteSnap is an app for Android devices that allows users to take a photo of any inspirational text they see. The app will then use OCR technology to recognise and extract the text. ",
-    "technologies": ["Teact-Native", "MongoDb", "Expo"],
+    "description": "QuoteSnap is an app for Android devices that allows users to take a photo of any inspirational text they see. The app will then use OCR technology to recognise and extract the text",
+    "technologies": ["React-Native", "MongoDB", "Expo"],
     "id": "4",
     "link": "https://github.com/mikef80/quotesnap-fe"
   },
   {
     "title": "QuoteSnap Back-End  ",
-    "description": "A full functional database using MondoDB",
-    "technologies": ["MongoDB", "Node.js", "express"],
+    "description": "A full functional database using MongoDB",
+    "technologies": ["MongoDB", "Node.js", "Express"],
     "id": "3",
     "link": "https://github.com/mikef80/quotesnap-be"
   },
   {
     "title": "NC News Front-End  ",
     "description": "This project helps users view articles that are stored in an API. Users can also add and delete comments as well as upvote/like their favourite articles  ",
-    "technologies": ["React-Natve", "Axios", "PSQL"],
+    "technologies": ["React-Native", "Axios", "PSQL"],
     "id": "2",
     "link": "https://github.com/MJahidH/nc-news-frontend"
   },
   {
     "title": "NC News Back-End  ",
     "description": "A full functional database using PSQL",
-    "technologies": ["Node.js", "PSQL", "supertest", "Express"],
+    "technologies": ["Node.js", "PSQL", "Supertest", "Express"],
     "id": "1",
     "link": "https://github.com/MJahidH/nc-news-backend"
   }
