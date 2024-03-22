@@ -48,6 +48,19 @@ pb-10;
 absolute bottom-20 left-1/2 -translate-x-1/2
 bg-black;
 }
+/* Base styles - adjust as needed for larger screens */
+.githubButton {
+  @apply text-2xl rounded-3xl p-4 bg-black text-secondary;
+}
+
+/* Tailwind CSS doesn't directly support applying responsive styles within @apply, 
+   so you use standard media queries for specific responsive adjustments */
+@media (max-width: 639px) { /* Tailwind's 'sm' breakpoint */
+  .githubButton {
+    @apply absolute bottom-0 ml-16;
+  }
+}
+
 
 .defaultHover {
   @apply transition 
