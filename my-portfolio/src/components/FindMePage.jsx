@@ -18,13 +18,23 @@ const FindMePage = () => {
   };
 
   return (
-    <div className="pt-20">
+    <div className="
+    pt-20
+    w-full
+    h-full
+    ">
       <h1 className="pageMainSubheading">Find Me</h1>
+      <h1 className="
+      block sm:hidden
+      text-secondary">Scroll Right -&gt;  </h1>
       <div
         className="
 flex flex-row
-mt-10
+overflow-y-auto
+h-full
+mt-5
 mx-5
+mb-10
 "
       >
         <button
