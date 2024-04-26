@@ -2,7 +2,7 @@
 
 Link to my portfolio website : https://jahid-23.netlify.app
 
-# Tecgnologies used :
+# Technologies used :
 
 - React
 - JSX
