@@ -1,6 +1,20 @@
 [
   {
-    "title": "Asteroids Game (Current Project)   ",
+    "title": "Analyzing Police Statistics",
+    "description": "Multiple scripts to analyze big data, in this case, data on people who were arrested, such as the violation they did and what age they were. The scripts help the user, to try and identify patterns in the data for example if the age is alot higher for one violation compared to another. ",
+    "technologies": ["Python"],
+    "id": "9",
+    "link": "https://github.com/MJahidH/police-stats"
+  },
+  {
+    "title": "Password Manager",
+    "description": "A password manager that utilises encription",
+    "technologies": ["Python"],
+    "id": "8",
+    "link": "https://github.com/MJahidH/password-manager"
+  },
+  {
+    "title": "Asteroids Game",
     "description": "Based on the classic Asteroids game",
     "technologies": ["Javascript", "HTML"],
     "id": "7",
@@ -43,8 +57,8 @@
   },
   {
     "title": "NC News Back-End  ",
-    "description": "A full functional database using PSQL",
-    "technologies": ["Node.js", "PSQL", "Supertest", "Express"],
+    "description": "A full functional database using PSQL. You can make multiple requests such as get data by article ID,upvote and add or delete a comment ",
+    "technologies": ["Node.js", "PSQL", "Express"],
     "id": "1",
     "link": "https://github.com/MJahidH/nc-news-backend"
   }

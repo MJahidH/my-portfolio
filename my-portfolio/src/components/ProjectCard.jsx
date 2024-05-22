@@ -6,11 +6,12 @@ const ProjectCard = ({ project }) => {
   };
 
   return (
-    <div className="border-gray-200
+    <div className="
     mb-10
     py-5
     relative overflow-hidden
-    bg-gradient-to-r from-primary to-gray-600">
+    bg-gradient-to-r from-primary to-gray-600
+    ">
       <h2 className="projectTitle">{project.title}</h2>
       <p className="projectSecondaryText">{project.description}</p>
 
@@ -23,7 +24,7 @@ const ProjectCard = ({ project }) => {
         ">Technologies : </h3>
         {project.technologies.map((technology) => {
           return <li class className="projectSecondaryText
-          py-1"> -   {technology}</li>;
+          Text py-1"> -   {technology}</li>;
         })}
       </ul>
       <button

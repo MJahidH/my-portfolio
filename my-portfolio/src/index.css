@@ -13,13 +13,12 @@
 }
 
 .contactButtons {
-  @apply 
-  w-full
+  @apply w-full
   text-3xl
   mx-5
   rounded-3xl
   p-10
-  defaultHover
+  defaultHover;
 }
 
 .pageMainSubheading {
@@ -37,7 +36,10 @@ pb-10;
 .projectSecondaryText {
   @apply text-left
     text-secondary
-    pl-5;
+    pl-10
+    pr-10
+    pt-1;
+  padding-bottom: 30px;
 }
 
 .githubButton {
@@ -45,7 +47,8 @@ pb-10;
   text-secondary
   rounded-3xl
   p-4
-absolute bottom-20 left-1/2 -translate-x-1/2
+
+absolute bottom-16 left-1/2 -translate-x-1/2
 bg-black;
 }
 /* Base styles - adjust as needed for larger screens */
@@ -55,12 +58,12 @@ bg-black;
 
 /* Tailwind CSS doesn't directly support applying responsive styles within @apply, 
    so you use standard media queries for specific responsive adjustments */
-@media (max-width: 639px) { /* Tailwind's 'sm' breakpoint */
+@media (max-width: 639px) {
+  /* Tailwind's 'sm' breakpoint */
   .githubButton {
     @apply absolute bottom-0 ml-16;
   }
 }
-
 
 .defaultHover {
   @apply transition 
