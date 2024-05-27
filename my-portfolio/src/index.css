@@ -14,9 +14,18 @@
 
 .drop-down-button{
   @apply 
-  text-4xl
-
+  text-3xl
   text-left
+  w-full
+  flex-1
+  my-4
+  mx-4
+  defaultHover
+  translate-x-0
+  ease-in-out
+  bg-black
+  hover:bg-gray-500;
+  
 }
 
 .contactButtons {

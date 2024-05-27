@@ -48,6 +48,7 @@ const DropDownFilter = ({ setProjects }) => {
   pr-20
   mr-10
   z-20
+  bg-black
 
   
 "
@@ -59,7 +60,9 @@ const DropDownFilter = ({ setProjects }) => {
 
       items-center
       justify-start
-      text-left"
+      text-left
+      bg-black"
+      
       >
         <button className="item-center text-4xl" onClick={toggleDropDown}>
           Filter : {filterTitle}
@@ -69,7 +72,8 @@ const DropDownFilter = ({ setProjects }) => {
             className="
           absolute 
           left-0
-          mr-6"
+          mr-6
+          bg-black"
           >
             {filterKeyWords.map((language) => {
               return (
