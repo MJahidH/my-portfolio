@@ -12,6 +12,13 @@
   hover:bg-gray-500;
 }
 
+.drop-down-button{
+  @apply 
+  text-4xl
+
+  text-left
+}
+
 .contactButtons {
   @apply w-full
   text-3xl

@@ -3,7 +3,7 @@ import data from "../projects-data.json";
 
 const DropDownFilter = ({ setProjects }) => {
   const [dropDownOpen, setDropDownOpen] = useState(false);
-  const [filterTitle,setFilterTitle ] = useState("All")
+  const [filterTitle, setFilterTitle] = useState("All");
 
   const filterKeyWords = [
     "All",
@@ -35,9 +35,9 @@ const DropDownFilter = ({ setProjects }) => {
         return project.tags.includes(language);
       }
     });
-     setProjects([...result])
-     setDropDownOpen(!dropDownOpen)
-     setFilterTitle(language)
+    setProjects([...result]);
+    setDropDownOpen(!dropDownOpen);
+    setFilterTitle(language);
   };
 
   return (
@@ -46,29 +46,48 @@ const DropDownFilter = ({ setProjects }) => {
   absolute
   right-0
   pr-20
-  z-20"
+  mr-10
+  z-20
+
+  
+"
     >
-      <button className="text-4xl" onClick={toggleDropDown}>
-        Filter : {filterTitle}
-      </button>
-      {dropDownOpen && (
-        <ul>
-          {filterKeyWords.map((language) => {
-            return (
-              <li>
-                <button
-                  onClick={() => {
-                    handleItemClick(language);
-                  }}
-                  className="text-4xl"
-                >
-                  {language}
-                </button>
-              </li>
-            );
-          })}
-        </ul>
-      )}
+      <div
+        className="
+      relative
+
+
+      items-center
+      justify-start
+      text-left"
+      >
+        <button className="item-center text-4xl" onClick={toggleDropDown}>
+          Filter : {filterTitle}
+        </button>
+        {dropDownOpen && (
+          <ul
+            className="
+          absolute 
+          left-0
+          mr-6"
+          >
+            {filterKeyWords.map((language) => {
+              return (
+                <li>
+                  <button
+                    onClick={() => {
+                      handleItemClick(language);
+                    }}
+                    className="drop-down-button"
+                  >
+                    {language}
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+      </div>
     </div>
   );
 };
