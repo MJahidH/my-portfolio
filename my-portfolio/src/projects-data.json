@@ -1,5 +1,21 @@
 [
   {
+    "title": "Profile Predictor",
+    "description": "A simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits it.",
+    "technologies": ["Next.js","TypeScript","CSS"],
+    "tags": ["Next.js","TypeScript","CSS"],
+    "id": "11",
+    "link": "https://github.com/MJahidH/profile-prediction"
+  },
+  {
+    "title": "Recipe Landing Page",
+    "description": "Developed a pixel-perfect landing page that precisely met the customer's requirements. ",
+    "technologies": ["React","JavaScript","CSS"],
+    "tags": ["React","JavaScript","CSS"],
+    "id": "10",
+    "link": "https://github.com/MJahidH/landing-page"
+  },
+  {
     "title": "Analyzing Police Statistics",
     "description": "Multiple scripts to analyze big data, in this case, data on people who were arrested, such as the violation they did and what age they were. The scripts help the user, to try and identify patterns in the data for example if the age is alot higher for one violation compared to another. ",
     "technologies": ["Python"],
