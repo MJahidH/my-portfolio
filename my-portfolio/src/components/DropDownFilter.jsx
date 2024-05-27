@@ -3,6 +3,7 @@ import data from "../projects-data.json";
 
 const DropDownFilter = ({ setProjects }) => {
   const [dropDownOpen, setDropDownOpen] = useState(false);
+  const [filterTitle,setFilterTitle ] = useState("All")
 
   const filterKeyWords = [
     "All",
@@ -35,6 +36,8 @@ const DropDownFilter = ({ setProjects }) => {
       }
     });
      setProjects([...result])
+     setDropDownOpen(!dropDownOpen)
+     setFilterTitle(language)
   };
 
   return (
@@ -46,7 +49,7 @@ const DropDownFilter = ({ setProjects }) => {
   z-20"
     >
       <button className="text-4xl" onClick={toggleDropDown}>
-        Filter
+        Filter : {filterTitle}
       </button>
       {dropDownOpen && (
         <ul>
