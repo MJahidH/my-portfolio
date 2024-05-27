@@ -7,14 +7,11 @@ const ProjectsList = () => {
   const [projects, setProjects] = useState(data);
   
 
-  const filteredArray = [];
-
-  
 
   return (
     <div className="pt-20">
       <h1 className="pageMainSubheading">My Projects</h1>
-      <DropDownFilter filteredArray={filteredArray}/>
+      <DropDownFilter setProjects={setProjects}/>
       {projects.map((project, index) => {
         return <ProjectCard key={project.id} project={project} />;
       })}
