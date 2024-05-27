@@ -1,5 +1,5 @@
 const ProjectCard = ({ project }) => {
-  console.log(project);
+
 
   const openInNewTab = (url) => {
     window.open(url, "_blank");
@@ -23,7 +23,7 @@ const ProjectCard = ({ project }) => {
         
         ">Technologies : </h3>
         {project.technologies.map((technology) => {
-          return <li class className="projectSecondaryText
+          return <li  className="projectSecondaryText
           Text py-1"> -   {technology}</li>;
         })}
       </ul>
