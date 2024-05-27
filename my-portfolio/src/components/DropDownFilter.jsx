@@ -62,9 +62,11 @@ const DropDownFilter = ({ setProjects }) => {
       justify-start
       text-left
       bg-black"
-      
       >
-        <button className="item-center text-4xl" onClick={toggleDropDown}>
+        <button
+          className="py-2 rounded-lg item-center text-4xl text-white"
+          onClick={toggleDropDown}
+        >
           Filter : {filterTitle}
         </button>
         {dropDownOpen && (
@@ -73,6 +75,7 @@ const DropDownFilter = ({ setProjects }) => {
           absolute 
           left-0
           mr-6
+          pr-6
           bg-black"
           >
             {filterKeyWords.map((language) => {

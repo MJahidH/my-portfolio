@@ -14,8 +14,10 @@
 
 .drop-down-button{
   @apply 
+  text-white
   text-3xl
   text-left
+  rounded
   w-full
   flex-1
   my-4
