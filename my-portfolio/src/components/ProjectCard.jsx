@@ -1,21 +1,42 @@
-const ProjectCard = ({ project }) => {
+import { useState } from "react";
 
+const ProjectCard = ({ project }) => {
+  const [isMobileApp, setIsMobileApp] = useState(false);
 
   const openInNewTab = (url) => {
     window.open(url, "_blank");
   };
 
   return (
-    <div className="
+    <div
+      className="
     mb-10
-    border-4
-    border-yellow-500
+
     py-5
     relative overflow-hidden
     bg-gradient-to-r from-primary to-gray-600
-    ">
+  
+    "
+    >
+      {project.isMobileApp ? (
+        <div className="mobilePreview">
+{project.imagePreview.map((image)=> {
+return (
+  <img  className="
+  h-64
+  w-[160px]"
+  src={`/assets/${image}`} alt="Test Screenshot" />
+)
+})}
+        </div>
+      ) : (
+        <img
+          className=""
+          src={`/assets/${project.imagePreview}`}
+          alt="Test Screenshot"
+        />
+      )}
       <h2 className="projectTitle">{project.title}</h2>
-
     </div>
   );
 };

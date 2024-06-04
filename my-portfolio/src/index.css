@@ -12,6 +12,14 @@
   hover:bg-gray-500;
 }
 
+.mobilePreview {
+  @apply w-full 
+  grid grid-cols-3
+
+
+
+}
+
 .drop-down-button{
   @apply 
   text-white
