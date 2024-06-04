@@ -8,36 +8,14 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="
     mb-10
+    border-4
+    border-yellow-500
     py-5
     relative overflow-hidden
     bg-gradient-to-r from-primary to-gray-600
     ">
       <h2 className="projectTitle">{project.title}</h2>
-      <p className="projectSecondaryText">{project.description}</p>
 
-      <ul>
-        <h3 className="projectSecondaryText 
-        pt-5
-        text-3xl
-        pb-3
-        
-        ">Technologies : </h3>
-        {project.technologies.map((technology) => {
-          return <li  className="projectSecondaryText
-          Text py-1"> -   {technology}</li>;
-        })}
-      </ul>
-      <button
-      className="
-      githubButton
-      defaultHover
-       "
-        onClick={() => {
-          openInNewTab(project.link);
-        }}
-      >
-        View In Github
-      </button>
     </div>
   );
 };

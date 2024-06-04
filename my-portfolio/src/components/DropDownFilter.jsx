@@ -47,6 +47,7 @@ const DropDownFilter = ({ setProjects }) => {
   right-0
   pr-20
   mr-10
+  mt-[-100px]
   z-20
   bg-black
 
@@ -56,9 +57,7 @@ const DropDownFilter = ({ setProjects }) => {
       <div
         className="
       relative
-
-
-      items-center
+     items-center
       justify-start
       text-left
       bg-black"
