@@ -3,13 +3,14 @@
 [
   {
     "title": "Profile Predictor",
-    "description": "A simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits it.",
+    "description": "A simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits itA simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits itA simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits it.",
     "technologies": ["Next.js","TypeScript","CSS"],
     "tags": ["Next.js","TypeScript","CSS"],
     "id": "11",
     "imagePreview" : ["profile-prediction-sc-1.png"],
     "allImages" : ["profile-prediction-sc-1.png","profile-prediction-sc-2.png"],
-    "link": "https://github.com/MJahidH/profile-prediction"
+    "link": "https://github.com/MJahidH/profile-prediction",
+    "hostedLink" : "dummy string"
   },
   {
     "title": "Recipe Landing Page",
