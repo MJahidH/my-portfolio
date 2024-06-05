@@ -1,20 +1,23 @@
-import React from "react"
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import projects from "../projects-data.json";
 
 const MainProjectPage = () => {
+  const { project_id } = useParams();
+  const [project, setProject] = useState({});
 
-    const {project_id} = useParams()
-    console.log(project_id)
-   
+  useEffect(() => {
+    const filteredProject = projects.filter((project) => {
+      return project.id === project_id;
+    });
+    setProject(filteredProject[0]);
+  }, []);
 
-   return (
-<div>
-<h1 className="text-secondary
-    text-7xl
-    pt-20
-    ">thi is the main projects id : {project_id}</h1>
-</div>
-   )
-}
+  return (
+    <div>
+      <h1 className="text-secondary text-7xl pt-20">{project.title}</h1>
+    </div>
+  );
+};
 
-export default MainProjectPage
+export default MainProjectPage;
