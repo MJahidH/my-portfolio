@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
 
   const openInNewTab = (url) => {
     window.open(url, "_blank");
-    console.log(`hello world`)
+
   };
 
   const test = ()=> {
