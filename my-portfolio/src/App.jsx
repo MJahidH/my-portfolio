@@ -5,6 +5,7 @@ import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import ProjectsList from "./components/ProjectsList";
 import HomePage from "./Homepage";
 import FindMePage from "./components/FindMePage";
+import MainProjectPage from "./components/MainProjectPage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ bg-gradient-to-b from-primary to-gray-600"
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsList />} />
           <Route path="/findme" element={<FindMePage />} />
+          <Route path="/projects/:project_id" element={<MainProjectPage />} />
         </Routes>
       </div>
     </Router>

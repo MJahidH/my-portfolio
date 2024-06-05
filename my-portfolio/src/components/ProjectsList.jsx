@@ -7,7 +7,7 @@ const ProjectsList = () => {
   const [projects, setProjects] = useState(data);
   
 
-
+  console.log(projects[0].a)
 
   return (
     <div className="pt-20">

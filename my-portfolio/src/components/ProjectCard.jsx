@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   const [isMobileApp, setIsMobileApp] = useState(false);
+  const navigate = useNavigate()
 
   const openInNewTab = (url) => {
     window.open(url, "_blank");
@@ -13,7 +15,9 @@ const ProjectCard = ({ project }) => {
   }
 
   return (
-    <button onClick={() => {openInNewTab(project.link)}}>
+    <button onClick={() => {
+navigate(`/projects/${project.id}`);
+      }}>
       <div
         className="
     mb-10
