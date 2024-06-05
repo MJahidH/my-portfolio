@@ -24,6 +24,7 @@
     "technologies": ["Python"],
     "tags": ["Python"],
     "id": "9",
+    "imagePreview" : ["police-stats-sc-3.png"],
     "link": "https://github.com/MJahidH/police-stats"
   },
   {
@@ -32,6 +33,7 @@
     "technologies": ["Python"],
     "tags": ["Python"],
     "id": "8",
+    "imagePreview" : ["password-manager-sc-3.png"],
     "link": "https://github.com/MJahidH/password-manager"
   },
   {
@@ -59,6 +61,7 @@
     "technologies": ["React", "Tailwind CSS", "JSX"],
     "tags": ["React", "Tailwind CSS", "JavaScript","CSS"],
     "id": "5",
+    "imagePreview" : ["portfolio-sc-1.png"],
     "link": "https://github.com/MJahidH/my-portfolio"
   },
   {
@@ -67,6 +70,7 @@
     "technologies": ["React-Native", "MongoDB", "Expo","CSS"],
     "tags": ["React-Native", "JavaScript", "Expo","CSS"],
     "id": "4",
+    "imagePreview" : ["quotesnap-fe-sc-10.png"],
     "link": "https://github.com/mikef80/quotesnap-fe"
   },
   {
@@ -75,6 +79,7 @@
     "technologies": ["MongoDB", "Node.js", "Express"],
     "tags": ["MongoDB", "Node.js", "Express","JavaScript"],
     "id": "3",
+    "imagePreview" : ["quotesnap-be-sc-1.png"],
     "link": "https://github.com/mikef80/quotesnap-be"
   },
   {
@@ -83,6 +88,7 @@
     "technologies": ["React-Native", "JavaScript", "PSQL"],
     "tags": ["React-Native", "Axios", "PSQL","JavaScript","CSS"],
     "id": "2",
+    "imagePreview" : ["nc-news-fe-sc-3.png"],
     "link": "https://github.com/MJahidH/nc-news-frontend"
   },
   {
@@ -91,6 +97,7 @@
     "technologies": ["Node.js", "PSQL", "Express"],
     "tags": ["Node.js", "PSQL", "Express","JavaScript"],
     "id": "1",
+    "imagePreview" : ["nc-news-be-sc-1.png"],
     "link": "https://github.com/MJahidH/nc-news-backend"
   }
 ]

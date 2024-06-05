@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
 return (
   <img  className="
   h-64
-  w-[160px]"
+  w-[16∆∆0px]"
   src={`/assets/${image}`} alt="Test Screenshot" />
 )
 })}
