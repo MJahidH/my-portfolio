@@ -35,20 +35,22 @@
   },
   {
     "title": "Password Manager",
-    "description": "A password manager that utilises encription",
+    "description":"A robust password manager that leverages advanced encryption techniques to ensure enhanced security for storing and managing passwords. Developed using Python and incorporating Fender's encryption technology, this tool provides a highly secure solution for protecting sensitive information from unauthorized access.",
     "technologies": ["Python"],
     "tags": ["Python"],
     "id": "8",
     "imagePreview": ["password-manager-sc-3.png"],
+    "allImages": ["password-manager-sc-3.png","password-manager-sc-4.png"],
     "link": "https://github.com/MJahidH/password-manager"
   },
   {
     "title": "Asteroids Game",
-    "description": "Based on the classic Asteroids game",
+    "description": "Used JavaScript and advanced animation techniques to modernize the classic \"Asteroids\" game. By leveraging HTML5 canvas and the requestAnimationFrame API, I enhanced the game's graphics and animations for smooth, responsive gameplay. The game features intuitive controls, and sophisticated collision detection, offering a fresh experience that appeals to both nostalgic players and new audiences.",
     "technologies": ["JavaScript", "HTML"],
     "tags": ["JavaScript", "HTML"],
     "id": "7",
-    "imagePreview": ["asteroids-game-sc-1.png"],
+    "imagePreview": ["asteroids-game-sc-2.png"],
+    "allImages": ["asteroids-game-sc-2.png","asteroids-game-sc-1.png"],
     "link": "https://github.com/MJahidH/asteroid-game"
   },
   {
