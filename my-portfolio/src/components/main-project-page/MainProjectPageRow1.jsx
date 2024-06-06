@@ -1,6 +1,16 @@
-
+import { useEffect, useState } from "react";
 
 const MainProjectPageRow1 = ({ project }) => {
+
+const [imagePath,setImagePath] = useState("")
+
+useEffect(() => {
+  if (project.imagePreview) {
+   setImagePath(project.imagePreview)
+  }
+},[project.imagePreview])
+
+
   return (
     <div
       className="
@@ -9,7 +19,7 @@ const MainProjectPageRow1 = ({ project }) => {
   border-4
   grid grid-cols-2"
     >
-      <img src={`/assets/${project.imagePreview}`} alt="Test Screenshot" />
+      <img src={`/assets/${imagePath}`} alt="Test Screenshot" />
       <div className="px-10">
         <div
           className={`

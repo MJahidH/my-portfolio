@@ -7,7 +7,7 @@
     "technologies": ["Next.js","TypeScript","CSS"],
     "tags": ["Next.js","TypeScript","CSS"],
     "id": "11",
-    "imagePreview" : ["profile-prediction-sc-1.png"],
+    "imagePreview" : "profile-prediction-sc-1.png",
     "allImages" : ["profile-prediction-sc-1.png","profile-prediction-sc-2.png"],
     "link": "https://github.com/MJahidH/profile-prediction",
     "hostedLink" : "dummy string"
