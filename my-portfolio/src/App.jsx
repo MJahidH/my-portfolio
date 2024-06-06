@@ -5,7 +5,7 @@ import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import ProjectsList from "./components/ProjectsList";
 import HomePage from "./Homepage";
 import FindMePage from "./components/FindMePage";
-import MainProjectPage from "./components/MainProjectPage";
+import MainProjectPage from "./components/main-project-page/MainProjectPage";
 
 function App() {
   return (
