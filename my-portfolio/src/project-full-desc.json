@@ -1,7 +1,25 @@
 {
   "desc-11": [
-    "A simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits itA simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits itA simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits it.",
-    "A simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits itA simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits itA simple app that predicts the age, gender, and nationality of a name using three APIs after the user submits it."
+    "I'm a strong advocate for continuously exploring new frameworks within any given technology, as they enhance efficiency and promote standardized, cohesive practices among developers and engineers who are on the same team.",
+
+    "This is my first project using Next.js, and it's really opened my eyes to why so many major companies include this framework in their tech stacks, particularly due to its approach to dynamic routing. Unlike traditional setups where routes are manually defined, often using tools like React Router, Next.js employs a file-system-based routing mechanism.",
+
+    " Simply by organising files and folders within the `pages` directory, routes are automatically configured. For example, creating a file named `about.js` results in a route `/about`, and files like `[id].js` under `pages/posts` automatically map to dynamic routes such as `/posts/1` or `/posts/2`. This method not only reduces boilerplate and declutters the project structure but also enhances integration with other features like static generation and server-side rendering, optimising overall application performance."
   ],
-  "desc-10" : ["hello world"]
+
+  "desc-10": [
+    "Understanding basic CSS practices is essential for all developers. Using the React framework has streamlined the process of importing the right data into the appropriate components, accelerating development. However, I encountered some challenges with color styling for specific texts.",
+
+    "For instance, efficiently embedding list items using the map function with an unordered list is quite effective. However, I faced a styling challenge with each list item. By default, changing the text colour also altered the color of the bullet points, whereas I needed the bullet points to be a different color from the text. To resolve this, I removed the list style from the items and prepended a \".\" to each item. This approach allowed me more flexibility in styling, enabling me to independently adjust the color of the bullet points without affecting the text.",
+
+    "A similar challenge presented itself with ordered lists, which come with default styling. Like with the unordered list, I couldn’t directly change the colour of the numbers using standard CSS methods, and the bullet point approach wasn't suitable here. However, CSS offers a robust solution through the `counter-reset` and `counter-increment` properties. I employed these to establish a custom counter that incremented with each new list item added. This technique allowed me to style these numbers independently, providing the flexibility to differentiate their appearance from the list text."
+  ],
+
+  "desc-9": [
+    "Python has always been on my list of languages to learn. With a background in Swift and JavaScript, the transition was smooth, especially with the help of my research skills. Once I learned the basics—like if conditions, functions, and logging data to the console—everything became much easier. This project is simple, but it helped me dive into a new language without feeling overwhelmed.",
+
+    "Big companies often handle large datasets, and using tools like this to explore and understand file formats, such as comma-separated values (CSV), was fascinating.",
+
+    "Using the pandas library was a smooth transition. One feature that made testing much easier was the `head()` function. This function allowed me to quickly verify my workflow by returning the first few rows of the dataset, which is crucial when dealing with potentially hundreds or thousands of rows. Instead of taxing the CPU by processing the entire dataset, `head()` efficiently returns a specified number of rows, helping me confirm that my script is working as intended."
+  ]
 }
