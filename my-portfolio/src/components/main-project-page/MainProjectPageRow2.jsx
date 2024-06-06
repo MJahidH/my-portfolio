@@ -1,6 +1,6 @@
 import fullDesc from "../../project-full-desc.json"
 
-const MainProjectPageRow2 = ({ project }) => {
+const MainProjectPageRow2 = ({ project,project_id }) => {
     return (
       <div
         className="
@@ -12,7 +12,7 @@ const MainProjectPageRow2 = ({ project }) => {
         <div className="px-10 py-4">
 
           
-          {fullDesc[`desc-11`].map((paragraph) => {
+          {fullDesc[`desc-${project_id}`].map((paragraph) => {
             return (<p className="text-left text-m pt-9">{paragraph}</p>)
           })}
         </div>

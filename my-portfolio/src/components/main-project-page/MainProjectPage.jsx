@@ -19,7 +19,7 @@ const MainProjectPage = () => {
     <div className="px-10 pb-20 ">
       <h1 className="text-secondary text-7xl pt-20">{project.title}</h1>
       <MainProjectPageRow1 project={project}/>
-      <MainProjectPageRow2 project={project}/>
+      <MainProjectPageRow2 project={project} project_id={project_id}/>
 
     </div>
   );
