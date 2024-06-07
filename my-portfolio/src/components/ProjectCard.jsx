@@ -25,6 +25,7 @@ navigate(`/projects/${project.id}`);
     py-5
     relative overflow-hidden
     bg-gradient-to-r from-primary to-gray-600
+    contactButtons
   
     "
       >
