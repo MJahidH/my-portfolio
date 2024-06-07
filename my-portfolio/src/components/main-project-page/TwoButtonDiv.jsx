@@ -21,7 +21,8 @@ grid grid-cols-2
           openInNewTab(project.hostedLink);
         }}
         className="
-    hostedLinkButton"
+    hostedLinkButton
+    contactButtons"
       >
         Hosted website
       </button>
@@ -31,6 +32,7 @@ grid grid-cols-2
         }}
         className="
     githubButton
+    contactButtons
     "
       >
         Go to repo

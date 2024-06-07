@@ -24,6 +24,7 @@ flex justify-center items-center
       }}
       className="
   githubButton
+  contactButtons
   w-1/2
   h-1-2
   "
