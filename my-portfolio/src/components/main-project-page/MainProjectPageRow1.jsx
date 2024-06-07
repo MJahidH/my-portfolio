@@ -24,7 +24,7 @@ useEffect(() => {
       <img src={`/assets/${imagePath}`} alt="Test Screenshot" />
       <div className="px-10">
         
-        {project.hostedLink ? <TwoButtonDiv project={project}/> : <OneButtonDiv/>}
+        {project.hostedLink ? <TwoButtonDiv project={project}/> : <OneButtonDiv project={project}/>}
         
         
 
