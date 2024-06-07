@@ -100,15 +100,17 @@
     "tags": ["React-Native", "Axios", "PSQL", "JavaScript", "CSS"],
     "id": "2",
     "imagePreview": ["nc-news-fe-sc-3.png"],
+    "allImages": ["nc-news-fe-sc-3.png","nc-news-fe-sc-2.png"],
     "link": "https://github.com/MJahidH/nc-news-frontend"
   },
   {
     "title": "NC News Back-End  ",
-    "description": "A full functional database using PSQL. You can make multiple requests such as get data by article ID,upvote and add or delete a comment ",
+    "description":"A fully functional PostgreSQL database that supports multiple operations, including retrieving data by article ID, upvoting, and adding or deleting comments.",
     "technologies": ["Node.js", "PSQL", "Express"],
     "tags": ["Node.js", "PSQL", "Express", "JavaScript"],
     "id": "1",
     "imagePreview": ["nc-news-be-sc-1.png"],
+    "allImages": ["nc-news-be-sc-1.png","nc-news-be-sc-3.png"],
     "link": "https://github.com/MJahidH/nc-news-backend"
   }
 ]

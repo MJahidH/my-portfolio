@@ -47,19 +47,40 @@
     "This was my first project using Tailwind CSS. After working with this framework, I quickly understood why companies prefer frameworks like Tailwind and Bootstrap. It eliminates the need to repeatedly specify color RGB codes by allowing you to define custom keys, such as \"secondary,\" that reference a specific color. For example, to use this color for text, I would type \"text-secondary.\" This simplifies and speeds up the development process.",
 
     "Learning the basics of animations, such as hover effects, quickly revealed the extensive possibilities of animation design. However, I believe simplicity is often more effective than overusing animations, which can make websites look cheap or childish.",
+
     "Accessibility was a key consideration in my approach. I added hover effects that change the colour or enlarge the container to clearly indicate when the user is hovering over the correct element. Additionally, I prioritised accessibility by incorporating a colour palette suitable for dark mode or high contrast mode, which reduces eye strain and enhances readability."
 
   ],
   "desc-4" : [
     "This is the first project I did using React Native. Thanks to Having proficiency in React made the transition seamless. In our team of six, each of us was responsible for implementing multiple features, including a login screen, a category screen, and styling. We utilized a mix of pair programming and mob programming to bring the app together.",
+
     "We held daily stand-ups, gaining valuable experience in how a real agile working environment handles task delegation. To stay organized, we used Trello to track our progress and maintain a record of all completed and in-progress tasks.",
+
     "We had ample opportunity to hone our communication skills. Each team member led at least two stand-up meetings during the project, and everyone was required to discuss a specific feature of the app during our presentations.",
+    
     "One challenge that stands out involved adding a new category to the app. The category wouldn't appear immediately after being added by the user. To address this, my partner and I implemented a refresh state that activates when the user presses \"add,\" serving as a confirmation that the category has been successfully added."
   ],
   "desc-3" : [
     "This is my first project using MongoDB. Having experience with PostgreSQL gave me a basic understanding of how databases function, and transitioning my knowledge from one database system to another proved to be more enriching than I expected.",
+
     "We held daily stand-ups, gaining valuable experience in how a real agile working environment handles task delegation. To stay organized, we used Trello to track our progress and maintain a record of all completed and in-progress tasks.",
+
     "We had ample opportunity to hone our communication skills. Each team member led at least two stand-up meetings during the project, and everyone was required to discuss a specific feature of the app during our presentations.",
+
     "Error handling has always fascinated me because it presents continuous opportunities to encounter and resolve new issues, such as incorrect user login details or saving an empty string to the database when a user hasn't saved any quotes. I've come to realize that error handling is likely a lifelong practice. The most effective way to uncover more errors is by having users test the application and provide feedback."
+  ],
+  "desc-2": [
+    "This project marked my first foray into using React, and it was during its development that I truly appreciated the power of passing props between components. One of the features I worked on was adding comments to articles. Initially, when I used the Axios package to send requests to the API for adding or deleting comments, the comments were not rendering correctly on the screen. ",
+    
+    "I discovered that by passing the state as a prop to the components handling these actions, I could effectively update the UI in real time. This approach meant that as soon as a comment was added or deleted, the change was immediately visible on the page, even while the data was being updated in the API. This functionality greatly enhanced the user experience by providing instant feedback, letting users know that their comments were successfully posted or removed. This project not only improved my understanding of React's capabilities but also underscored the importance of state management in building responsive web applications."
+  ],
+  "desc-1" : [
+    "VS Code excels at identifying errors through its error terminal and can even direct me to the specific issues when I click on them. However, when making API requests, I encountered limitations as errors embedded within strings were not detectable by VS Code.",
+
+    "This project significantly enhanced my problem-solving and debugging skills because I had to employ alternative methods to determine why certain requests were failing.",
+
+    "Utilising the Model-View-Controller (MVC) architecture facilitated targeted debugging at various stages of the process. By using console logs, I could verify whether each function involved in a request was triggered and then investigate further if it failed to proceed to the next stage, such as due to a typo or incorrect function import or export.",
+
+    "One useful technique I employed was verifying the correctness of the paths for the controller and model. After defining each function's path, I would create a dummy variable, insert the path using a 'require' statement, and then check whether it correctly pointed to the intended file."
   ]
 }
