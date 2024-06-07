@@ -38,8 +38,12 @@ const openInNewTab = (url) => {
          }
 `}
         >
-          <button className="border-4 border-pink-300">
-            Visit Hosted website
+          <button onClick={() => {
+            openInNewTab(project.hostedLink)
+          }} 
+          className="
+          hostedLinkButton">
+             Hosted website
           </button>
           <button onClick={() => {
             openInNewTab(project.githubLink)

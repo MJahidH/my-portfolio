@@ -8,7 +8,7 @@
     "imagePreview": "profile-prediction-sc-1.png",
     "allImages": ["profile-prediction-sc-1.png", "profile-prediction-sc-2.png"],
     "githubLink": "https://github.com/MJahidH/profile-prediction",
-    "hostedLink": "dummy string"
+    "hostedLink": "https://profile-prediction.vercel.app"
   },
   {
     "title": "Recipe Landing Page",

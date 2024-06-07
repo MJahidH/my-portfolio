@@ -69,6 +69,15 @@ pb-10;
   padding-bottom: 30px;
 }
 
+.hostedLinkButton {
+  @apply 
+  text-5xl
+  text-secondary
+  rounded-3xl
+  p-4
+bg-green-700;
+}
+
 .githubButton {
   @apply 
   text-secondary
