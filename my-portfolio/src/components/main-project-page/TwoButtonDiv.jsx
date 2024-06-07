@@ -9,7 +9,7 @@ const TwoButtonDiv = ({ project }) => {
   return (
     <div
       className={`
-  h-1/3
+  h-1/4
   w-full
   border-4
  project.hostedLink
