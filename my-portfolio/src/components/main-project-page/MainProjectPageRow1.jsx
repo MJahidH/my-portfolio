@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import TwoButtonDiv from "./TwoButtonDiv";
+import OneButtonDiv from "./OneButtonDiv";
 
 const MainProjectPageRow1 = ({ project }) => {
 
@@ -11,10 +13,6 @@ useEffect(() => {
 },[project.imagePreview])
 
 
-const openInNewTab = (url) => {
-  window.open(url, "_blank");
-};
-
   return (
     <div
       className="
@@ -25,32 +23,12 @@ const openInNewTab = (url) => {
     >
       <img src={`/assets/${imagePath}`} alt="Test Screenshot" />
       <div className="px-10">
-        <div
-          className={`
-        h-1/3
-        w-full
-        border-4
-         ${
-           project.hostedLink
-             ? `grid grid-cols-2
-         gap-4`
-             : ``
-         }
-`}
-        >
-          <button onClick={() => {
-            openInNewTab(project.hostedLink)
-          }} 
-          className="
-          hostedLinkButton">
-             Hosted website
-          </button>
-          <button onClick={() => {
-            openInNewTab(project.githubLink)
-          }} className="
-          githubButton
-          ">Go to repo</button>
-        </div>
+        
+        {project.hostedLink ? <TwoButtonDiv project={project}/> : <OneButtonDiv/>}
+        
+        
+
+
         <h2 className="text-left text-secondary text-4xl pt-4">
           Technologies:
         </h2>
