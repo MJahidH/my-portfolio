@@ -11,6 +11,10 @@ useEffect(() => {
 },[project.imagePreview])
 
 
+const openInNewTab = (url) => {
+  window.open(url, "_blank");
+};
+
   return (
     <div
       className="
@@ -26,7 +30,6 @@ useEffect(() => {
         h-1/3
         w-full
         border-4
-         border-green-300
          ${
            project.hostedLink
              ? `grid grid-cols-2
@@ -38,7 +41,11 @@ useEffect(() => {
           <button className="border-4 border-pink-300">
             Visit Hosted website
           </button>
-          <button className="border-4 border-pink-300">Go to repo</button>
+          <button onClick={() => {
+            openInNewTab(project.githubLink)
+          }} className="
+          githubButton
+          ">Go to repo</button>
         </div>
         <h2 className="text-left text-secondary text-4xl pt-4">
           Technologies:

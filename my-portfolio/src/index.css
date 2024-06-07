@@ -70,17 +70,15 @@ pb-10;
 }
 
 .githubButton {
-  @apply text-2xl
+  @apply 
   text-secondary
   rounded-3xl
   p-4
-
-absolute bottom-16 left-1/2 -translate-x-1/2
 bg-black;
 }
 /* Base styles - adjust as needed for larger screens */
 .githubButton {
-  @apply text-2xl rounded-3xl p-4 bg-black text-secondary;
+  @apply text-5xl rounded-3xl p-4 bg-black text-secondary;
 }
 
 /* Tailwind CSS doesn't directly support applying responsive styles within @apply, 

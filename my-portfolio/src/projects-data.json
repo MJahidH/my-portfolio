@@ -7,7 +7,7 @@
     "id": "11",
     "imagePreview": "profile-prediction-sc-1.png",
     "allImages": ["profile-prediction-sc-1.png", "profile-prediction-sc-2.png"],
-    "link": "https://github.com/MJahidH/profile-prediction",
+    "githubLink": "https://github.com/MJahidH/profile-prediction",
     "hostedLink": "dummy string"
   },
   {
@@ -21,7 +21,7 @@
       "recipe-landing-page-sc-1.png",
       "recipe-landing-page-sc-2.png"
     ],
-    "link": "https://github.com/MJahidH/landing-page"
+    "githubLink": "https://github.com/MJahidH/landing-page"
   },
   {
     "title": "Analyzing Police Statistics",
@@ -31,7 +31,7 @@
     "id": "9",
     "imagePreview": ["police-stats-sc-3.png"],
     "allImages": ["police-stats-sc-3.png", "police-stats-sc-2.png"],
-    "link": "https://github.com/MJahidH/police-stats"
+    "githubLink": "https://github.com/MJahidH/police-stats"
   },
   {
     "title": "Password Manager",
@@ -41,7 +41,7 @@
     "id": "8",
     "imagePreview": ["password-manager-sc-3.png"],
     "allImages": ["password-manager-sc-3.png", "password-manager-sc-4.png"],
-    "link": "https://github.com/MJahidH/password-manager"
+    "githubLink": "https://github.com/MJahidH/password-manager"
   },
   {
     "title": "Asteroids Game",
@@ -51,7 +51,7 @@
     "id": "7",
     "imagePreview": ["asteroids-game-sc-2.png"],
     "allImages": ["asteroids-game-sc-2.png", "asteroids-game-sc-1.png"],
-    "link": "https://github.com/MJahidH/asteroid-game"
+    "githubLink": "https://github.com/MJahidH/asteroid-game"
   },
   {
     "title": "Sortable (To-Do List App)  ",
@@ -61,7 +61,7 @@
     "id": "6",
     "imagePreview": ["sortable-sc-1.png"],
     "allImages": ["sortable-sc-1.png","sortable-sc-3.png"],
-    "link": "https://github.com/MJahidH/sortable-fe"
+    "githubLink": "https://github.com/MJahidH/sortable-fe"
   },
   {
     "title": "Portfolio Web Page ",
@@ -71,7 +71,7 @@
     "id": "5",
     "imagePreview": ["portfolio-sc-2.png"],
     "allImages": ["portfolio-sc-2.png", "portfolio-sc-1.png"],
-    "link": "https://github.com/MJahidH/my-portfolio"
+    "githubLink": "https://github.com/MJahidH/my-portfolio"
   },
   {
     "title": "QuoteSnap Front-End  ",
@@ -81,7 +81,7 @@
     "id": "4",
     "imagePreview": ["quotesnap-fe-sc-10.png"],
     "allImages": ["quotesnap-fe-sc-10.png", "quotesnap-fe-sc-9.png"],
-    "link": "https://github.com/mikef80/quotesnap-fe"
+    "githubLink": "https://github.com/mikef80/quotesnap-fe"
   },
   {
     "title": "QuoteSnap Back-End  ",
@@ -91,7 +91,7 @@
     "id": "3",
     "imagePreview": ["quotesnap-be-sc-1.png"],
     "allImages": ["quotesnap-be-sc-1.png", "quotesnap-be-sc-2.png"],
-    "link": "https://github.com/mikef80/quotesnap-be"
+    "githubLink": "https://github.com/mikef80/quotesnap-be"
   },
   {
     "title": "NC News Front-End  ",
@@ -101,7 +101,7 @@
     "id": "2",
     "imagePreview": ["nc-news-fe-sc-3.png"],
     "allImages": ["nc-news-fe-sc-3.png","nc-news-fe-sc-2.png"],
-    "link": "https://github.com/MJahidH/nc-news-frontend"
+    "githubLink": "https://github.com/MJahidH/nc-news-frontend"
   },
   {
     "title": "NC News Back-End  ",
@@ -111,6 +111,6 @@
     "id": "1",
     "imagePreview": ["nc-news-be-sc-1.png"],
     "allImages": ["nc-news-be-sc-1.png","nc-news-be-sc-3.png"],
-    "link": "https://github.com/MJahidH/nc-news-backend"
+    "githubLink": "https://github.com/MJahidH/nc-news-backend"
   }
 ]
