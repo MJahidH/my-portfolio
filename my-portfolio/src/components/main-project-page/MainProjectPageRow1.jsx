@@ -29,7 +29,7 @@ useEffect(() => {
         
 
 
-        <h2 className="text-left text-secondary text-4xl pt-4">
+        ˚<h2 className="text-left text-secondary text-4xl">
           Technologies:
         </h2>
         <ul className="text-left">

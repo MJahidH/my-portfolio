@@ -71,7 +71,7 @@ pb-10;
 
 .hostedLinkButton {
   @apply 
-  text-5xl
+  text-4xl
   text-secondary
   rounded-3xl
   p-4
@@ -82,12 +82,11 @@ bg-green-700;
   @apply 
   text-secondary
   rounded-3xl
-  p-4
 bg-black;
 }
 /* Base styles - adjust as needed for larger screens */
 .githubButton {
-  @apply text-5xl rounded-3xl p-4 bg-black text-secondary;
+  @apply text-4xl rounded-3xl p-4 bg-black text-secondary;
 }
 
 /* Tailwind CSS doesn't directly support applying responsive styles within @apply, 

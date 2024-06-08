@@ -11,9 +11,8 @@ return (
     className={`
 h-1/3
 w-full
-border-4
 project.hostedLink
-
+px-20
 flex justify-center items-center
 `}
   >
@@ -25,8 +24,9 @@ flex justify-center items-center
       className="
   githubButton
   contactButtons
-  w-1/2
-  h-1-2
+
+  h-1/2
+  
   "
     >
       Go to repo

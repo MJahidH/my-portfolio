@@ -11,10 +11,12 @@ const TwoButtonDiv = ({ project }) => {
       className={`
   h-1/4
   w-full
+  px-10
+  mb-2
   border-4
  project.hostedLink
 grid grid-cols-2
-   gap-4`}
+   gap-10`}
     >
       <button
         onClick={() => {
