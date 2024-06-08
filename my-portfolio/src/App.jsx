@@ -15,7 +15,7 @@ function App() {
         min-w-screen
 bg-gradient-to-b from-primary to-gray-600"
       >
-        <h1 className="text-secondary
+        <h1 className="text-blue-200 font-bold
         text-7xl
         text-top
         pt-12">Jahid Hassan's Portfolio </h1>
