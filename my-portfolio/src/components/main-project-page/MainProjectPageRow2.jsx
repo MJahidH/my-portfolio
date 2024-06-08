@@ -26,10 +26,11 @@ const MainProjectPageRow2 = ({ project,project_id }) => {
         className="
     mt-10
     w-full
+    px-10
 
     grid grid-cols-2"
       >
-        <div className="px-10 py-4">
+        <div className=" py-4">
 
           
           {fullDesc[`desc-${project_id}`].map((paragraph) => {
