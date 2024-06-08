@@ -20,9 +20,7 @@ const MainProjectPageRow1 = ({ project,carouselOpen,setCarouselOpen }) => {
     }
   }, [project.tags]);
 
-  const handleCarouselClick = () => {
-    setCarouselOpen(!carouselOpen)    
-      }
+
   
   
   
@@ -38,7 +36,7 @@ const MainProjectPageRow1 = ({ project,carouselOpen,setCarouselOpen }) => {
     >
       <div>
         <img src={`/assets/${imagePath}`} alt="Test Screenshot" />
-        <button onClick={() => {handleCarouselClick()}} className="p-10 bg-pink-300">Open all images</button>
+        
       </div>
 
       <div className="px-10">
