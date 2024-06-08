@@ -20,7 +20,7 @@ const MainProjectPage = () => {
 
 
   return (
-    <div className="w-full pb-20 border-4 border-green-500 ">
+    <div className="w-full pb-20  ">
       {carouselOpen && <ImageCarousel images={project.allImages} carouselOpen={carouselOpen} setCarouselOpen={setCarouselOpen}/>}
       <h1 className="text-blue-200 font-bold text-7xl pt-20">{project.title}</h1>
       <MainProjectPageRow1  project={project}/>

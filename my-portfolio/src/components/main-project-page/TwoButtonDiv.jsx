@@ -26,7 +26,7 @@ grid grid-cols-2
     hostedLinkButton
     contactButtons"
       >
-        Hosted website
+        Hosted Website
       </button>
       <button
         onClick={() => {
@@ -37,7 +37,7 @@ grid grid-cols-2
     contactButtons
     "
       >
-        Go to repo
+        Go To Repo
       </button>
     </div>
   );

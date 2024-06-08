@@ -24,12 +24,12 @@ flex justify-center items-center
       className="
   githubButton
   contactButtons
-
+p-2
   h-1/2
   
   "
     >
-      Go to repo
+      Go To Repo
     </button>
   </div>
 );
