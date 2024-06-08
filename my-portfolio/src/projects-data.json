@@ -27,7 +27,7 @@
     "title": "Analyzing Police Statistics",
     "description": "The project includes multiple scripts designed to analyze large datasets, specifically focusing on data related to arrests. These scripts evaluate factors such as the type of violation committed and the age of the individuals involved. The goal is to help users identify patterns in the data, such as whether certain violations are more common among specific age groups.",
     "technologies": ["Python"],
-    "tags": ["Python"],
+    "tags": ["", "Python", ""],
     "id": "9",
     "imagePreview": ["police-stats-sc-3.png"],
     "allImages": ["police-stats-sc-3.png", "police-stats-sc-2.png"],
@@ -37,7 +37,7 @@
     "title": "Password Manager",
     "description": "A robust password manager that leverages advanced encryption techniques to ensure enhanced security for storing and managing passwords. Developed using Python and incorporating Fender's encryption technology, this tool provides a highly secure solution for protecting sensitive information from unauthorized access.",
     "technologies": ["Python"],
-    "tags": ["Python"],
+    "tags": ["", "Python", ""],
     "id": "8",
     "imagePreview": ["password-manager-sc-3.png"],
     "allImages": ["password-manager-sc-3.png", "password-manager-sc-4.png"],
@@ -52,16 +52,16 @@
     "imagePreview": ["asteroids-game-sc-2.png"],
     "allImages": ["asteroids-game-sc-2.png", "asteroids-game-sc-1.png"],
     "githubLink": "https://github.com/MJahidH/asteroid-game",
-    "hostedLink" : "https://jahids-asteroid-game.netlify.app"
+    "hostedLink": "https://jahids-asteroid-game.netlify.app"
   },
   {
     "title": "Sortable (To-Do List App)  ",
-    "description":"This to-do list app is designed to be highly accessible, incorporating intuitive gestures and engaging animations to significantly enrich the user experience. This approach not only simplifies task management but also makes the process more interactive and enjoyable for users of all skill levels.",
+    "description": "This to-do list app is designed to be highly accessible, incorporating intuitive gestures and engaging animations to significantly enrich the user experience. This approach not only simplifies task management but also makes the process more interactive and enjoyable for users of all skill levels.",
     "technologies": ["React-Native", "React-Native-Gestures", "JSX"],
     "tags": ["React-Native", "JavaScript", "CSS"],
     "id": "6",
     "imagePreview": ["sortable-sc-1.png"],
-    "allImages": ["sortable-sc-1.png","sortable-sc-3.png"],
+    "allImages": ["sortable-sc-1.png", "sortable-sc-3.png"],
     "githubLink": "https://github.com/MJahidH/sortable-fe"
   },
   {
@@ -101,17 +101,17 @@
     "tags": ["React-Native", "Axios", "PSQL", "JavaScript", "CSS"],
     "id": "2",
     "imagePreview": ["nc-news-fe-sc-3.png"],
-    "allImages": ["nc-news-fe-sc-3.png","nc-news-fe-sc-2.png"],
+    "allImages": ["nc-news-fe-sc-3.png", "nc-news-fe-sc-2.png"],
     "githubLink": "https://github.com/MJahidH/nc-news-frontend"
   },
   {
     "title": "NC News Back-End  ",
-    "description":"A fully functional PostgreSQL database that supports multiple operations, including retrieving data by article ID, upvoting, and adding or deleting comments.",
+    "description": "A fully functional PostgreSQL database that supports multiple operations, including retrieving data by article ID, upvoting, and adding or deleting comments.",
     "technologies": ["Node.js", "PSQL", "Express"],
     "tags": ["Node.js", "PSQL", "Express", "JavaScript"],
     "id": "1",
     "imagePreview": ["nc-news-be-sc-1.png"],
-    "allImages": ["nc-news-be-sc-1.png","nc-news-be-sc-3.png"],
+    "allImages": ["nc-news-be-sc-1.png", "nc-news-be-sc-3.png"],
     "githubLink": "https://github.com/MJahidH/nc-news-backend"
   }
 ]
