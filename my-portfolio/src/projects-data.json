@@ -60,8 +60,8 @@
     "technologies": ["React-Native", "React-Native-Gestures", "JSX"],
     "tags": ["React-Native", "JavaScript", "CSS"],
     "id": "6",
-    "imagePreview": ["sortable-sc-1.png"],
-    "allImages": ["sortable-sc-1.png", "sortable-sc-3.png"],
+    "imagePreview": ["sortable-sc-1.PNG"],
+    "allImages": ["sortable-sc-1.PNG", "sortable-sc-3.PNG"],
     "githubLink": "https://github.com/MJahidH/sortable-fe"
   },
   {

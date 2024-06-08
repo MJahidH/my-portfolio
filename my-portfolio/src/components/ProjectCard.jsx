@@ -10,9 +10,9 @@ const ProjectCard = ({ project }) => {
 
   };
 
-  const test = ()=> {
-    console.log(`hello world`)
-  }
+if (project.id === 1) {
+  console.log(project)
+}
 
   return (
     <button onClick={() => {
@@ -50,7 +50,7 @@ navigate(`/projects/${project.id}`);
             alt="Test Screenshot"
           />
         )}
-        <h2 className="projectTitle">{project.title}</h2>
+        <h2 className="projectTitle ">{project.title}</h2>
       </div>
     </button>
   );

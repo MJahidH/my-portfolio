@@ -26,14 +26,14 @@ const MainProjectPageRow2 = ({ project,project_id }) => {
         className="
     mt-10
     w-full
-    border-4
+
     grid grid-cols-2"
       >
         <div className="px-10 py-4">
 
           
           {fullDesc[`desc-${project_id}`].map((paragraph) => {
-            return (<p className="text-left text-m pt-2">{paragraph}</p>)
+            return (<p className="text-left text-m pt-2 text-white">{paragraph}</p>)
           })}
         </div>
         <img src={`/assets/${project.allImages[1]}`} alt="Test Screenshot" />

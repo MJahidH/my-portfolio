@@ -13,7 +13,7 @@ const TwoButtonDiv = ({ project }) => {
   w-full
   px-10
   mb-2
-  border-4
+
  project.hostedLink
 grid grid-cols-2
    gap-10`}

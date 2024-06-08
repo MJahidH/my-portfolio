@@ -55,9 +55,9 @@ pb-10;
 
 .projectTitle {
   @apply pb-8
-    text-secondary
     text-4xl
-    mt-7;
+    mt-7
+    text-blue-200 font-bold
 }
 
 .projectSecondaryText {

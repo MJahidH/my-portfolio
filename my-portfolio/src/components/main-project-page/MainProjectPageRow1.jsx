@@ -25,7 +25,7 @@ const MainProjectPageRow1 = ({ project }) => {
       className="
   mt-20
   w-full
-  border-4
+
   grid grid-cols-2"
     >
       <img src={`/assets/${imagePath}`} alt="Test Screenshot" />
@@ -35,7 +35,7 @@ const MainProjectPageRow1 = ({ project }) => {
         ) : (
           <OneButtonDiv project={project} />
         )}
-        ˚<h2 className="text-center text-secondary text-4xl">Technologies:</h2>
+        ˚<h2 className="text-center text-blue-200 font-bold  text-4xl">Technologies:</h2>
         <ul
           className={`
         text-left
@@ -45,11 +45,11 @@ const MainProjectPageRow1 = ({ project }) => {
         `}
         >
           {project.tags?.map((tech) => {
-            return <li className="text-center text-3xl">{tech}</li>;
+            return <li className="text-white text-center text-3xl">{tech}</li>;
           })}
         </ul>
-        <h2 className="text-center text-secondary text-4xl pt-6">Summary:</h2>
-        <p className="text-left text-m pt-2">{project.description}</p>
+        <h2 className="text-center text-blue-200 font-bold  text-4xl pt-6">Summary:</h2>
+        <p className="text-white text-left text-m pt-2">{project.description}</p>
       </div>
     </div>
   );
