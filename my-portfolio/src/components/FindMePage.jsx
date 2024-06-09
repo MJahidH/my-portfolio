@@ -52,7 +52,8 @@ text-white
         <button
           className="contactButtons
       bg-black
-      text-white"
+      text-white
+      mx-5"
           onClick={() => {
             openInNewTab(links.github);
           }}
