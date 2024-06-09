@@ -42,13 +42,13 @@ const MainProjectPageRow2 = ({
             handleCarouselClick();
           }}
           className="
-    bg-red-500
+    bg-white
         w-1/3
         py-2
         mb-10
 
         text-4xl
-        text-white
+        text-black
         rounded-3xl
 
         "
@@ -58,7 +58,7 @@ const MainProjectPageRow2 = ({
 
         {fullDesc[`desc-${project_id}`].map((paragraph) => {
           return (
-            <p className="text-left text-m pt-2 text-white">{paragraph}</p>
+            <p className="text-left text-m pt-2 text-white pb-4">{paragraph}</p>
           );
         })}
       </div>
