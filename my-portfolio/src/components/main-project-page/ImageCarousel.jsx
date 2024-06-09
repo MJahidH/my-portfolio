@@ -8,23 +8,29 @@ const ImageCarousel = ({ setCarouselOpen, carouselOpen, images }) => {
   };
 
   const goToNextImage = () => {
-    let  newValue = 0;
-    console.log(images.length -1)
+    let newValue;
+  
     if (currentImage < images.length - 1) {
-      newValue++;
+      newValue = currentImage + 1;
+    } else {
+      newValue = 0;
     }
-
+  
     setCurrentImage(newValue);
+    console.log(images[newValue]);
   };
 
   const goToPreviousImage = () => {
-    let  newValue = 0;
-    console.log(images.length -1)
-    if (currentImage > images.length - 1) {
-      newValue--;
+    let newValue;
+  
+    if (currentImage > 0) {
+      newValue = currentImage - 1;
+    } else {
+      newValue = images.length - 1;
     }
-
+  
     setCurrentImage(newValue);
+    console.log(images[newValue]);
   };
 
   return (

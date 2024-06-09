@@ -50,7 +50,7 @@
     "tags": ["JavaScript", "HTML"],
     "id": "7",
     "imagePreview": ["asteroids-game-sc-2.png"],
-    "allImages": ["asteroids-game-sc-2.png", "asteroids-game-sc-1.png"],
+    "allImages": ["asteroids-game-sc-2.png", "asteroids-game-sc-1.png","asteroids-game-sc-3.png"],
     "githubLink": "https://github.com/MJahidH/asteroid-game",
     "hostedLink": "https://jahids-asteroid-game.netlify.app"
   },
