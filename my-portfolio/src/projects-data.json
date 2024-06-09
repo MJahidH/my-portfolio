@@ -30,7 +30,11 @@
     "tags": ["", "Python", ""],
     "id": "9",
     "imagePreview": ["police-stats-sc-3.png"],
-    "allImages": ["police-stats-sc-3.png", "police-stats-sc-2.png"],
+    "allImages": [
+      "police-stats-sc-3.png",
+      "police-stats-sc-2.png",
+      "police-stats-sc-1.png"
+    ],
     "githubLink": "https://github.com/MJahidH/police-stats"
   },
   {
@@ -40,7 +44,13 @@
     "tags": ["", "Python", ""],
     "id": "8",
     "imagePreview": ["password-manager-sc-3.png"],
-    "allImages": ["password-manager-sc-3.png", "password-manager-sc-4.png"],
+    "allImages": [
+      "password-manager-sc-3.png",
+      "password-manager-sc-4.png",
+      "password-manager-sc-1.png",
+      "password-manager-sc-2.png",
+      "password-manager-sc-5.png"
+    ],
     "githubLink": "https://github.com/MJahidH/password-manager"
   },
   {
@@ -50,7 +60,11 @@
     "tags": ["JavaScript", "HTML"],
     "id": "7",
     "imagePreview": ["asteroids-game-sc-2.png"],
-    "allImages": ["asteroids-game-sc-2.png", "asteroids-game-sc-1.png","asteroids-game-sc-3.png"],
+    "allImages": [
+      "asteroids-game-sc-2.png",
+      "asteroids-game-sc-1.png",
+      "asteroids-game-sc-3.png"
+    ],
     "githubLink": "https://github.com/MJahidH/asteroid-game",
     "hostedLink": "https://jahids-asteroid-game.netlify.app"
   },
@@ -61,7 +75,7 @@
     "tags": ["React-Native", "JavaScript", "CSS"],
     "id": "6",
     "imagePreview": ["sortable-sc-1.PNG"],
-    "allImages": ["sortable-sc-1.PNG", "sortable-sc-3.PNG"],
+    "allImages": ["sortable-sc-1.PNG", "sortable-sc-3.PNG","sortable-sc-2.PNG","sortable-sc-4.PNG"],
     "githubLink": "https://github.com/MJahidH/sortable-fe"
   },
   {
@@ -81,7 +95,18 @@
     "tags": ["React-Native", "JavaScript", "Expo", "CSS"],
     "id": "4",
     "imagePreview": ["quotesnap-fe-sc-10.png"],
-    "allImages": ["quotesnap-fe-sc-10.png", "quotesnap-fe-sc-9.png"],
+    "allImages": [
+      "quotesnap-fe-sc-10.png",
+      "quotesnap-fe-sc-9.png",
+      "quotesnap-fe-sc-8.png",
+      "quotesnap-fe-sc-7.png",
+      "quotesnap-fe-sc-6.png",
+      "quotesnap-fe-sc-5.png",
+      "quotesnap-fe-sc-4.png",
+      "quotesnap-fe-sc-3.png",
+      "quotesnap-fe-sc-2.png",
+      "quotesnap-fe-sc-1.png"
+    ],
     "githubLink": "https://github.com/mikef80/quotesnap-fe"
   },
   {
@@ -91,7 +116,11 @@
     "tags": ["MongoDB", "Node.js", "Express", "JavaScript"],
     "id": "3",
     "imagePreview": ["quotesnap-be-sc-1.png"],
-    "allImages": ["quotesnap-be-sc-1.png", "quotesnap-be-sc-2.png"],
+    "allImages": [
+      "quotesnap-be-sc-1.png",
+      "quotesnap-be-sc-2.png",
+      "quotesnap-be-sc-3.png"
+    ],
     "githubLink": "https://github.com/mikef80/quotesnap-be"
   },
   {
@@ -101,7 +130,11 @@
     "tags": ["React-Native", "Axios", "PSQL", "JavaScript", "CSS"],
     "id": "2",
     "imagePreview": ["nc-news-fe-sc-3.png"],
-    "allImages": ["nc-news-fe-sc-3.png", "nc-news-fe-sc-2.png"],
+    "allImages": [
+      "nc-news-fe-sc-3.png",
+      "nc-news-fe-sc-2.png",
+      "nc-news-fe-sc-1.png"
+    ],
     "githubLink": "https://github.com/MJahidH/nc-news-frontend"
   },
   {
@@ -110,8 +143,13 @@
     "technologies": ["Node.js", "PSQL", "Express"],
     "tags": ["Node.js", "PSQL", "Express", "JavaScript"],
     "id": "1",
-    "imagePreview": ["nc-news-be-sc-1.png"],
-    "allImages": ["nc-news-be-sc-1.png", "nc-news-be-sc-3.png"],
+    "imagePreview": ["nc-news-be-sc-2.png"],
+    "allImages": [
+      "nc-news-be-sc-2.png",
+      "nc-news-be-sc-3.png",
+      "nc-news-be-sc-4.png",
+      "nc-news-be-sc-5.png"
+    ],
     "githubLink": "https://github.com/MJahidH/nc-news-backend"
   }
 ]
