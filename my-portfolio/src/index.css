@@ -104,5 +104,6 @@ ease-in-out
   hover:-translate-y-1 
   hover:scale-110
   hover:border-secondary
-  hover:border-2;
+  hover:border-2
+  ;
 }

@@ -42,15 +42,15 @@ const MainProjectPageRow2 = ({
             handleCarouselClick();
           }}
           className="
-
-        bg-red-500
+    bg-red-500
         w-1/3
         py-2
         mb-10
-        defaultHover
+
         text-4xl
         text-white
         rounded-3xl
+
         "
         >
           View All Images
